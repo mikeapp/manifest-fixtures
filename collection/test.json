@@ -1,0 +1,51 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://mikeapp.github.io/manifest-fixtures/manifest/test.json",
+  "type": "Collection",
+  "label": { "en": [ "Map and Timeline Collection" ] },
+  "summary": { "en": [ "Short summary of the Collection" ] },
+  "requiredStatement": {
+    "label": { "en": [ "Attribution" ] },
+    "value": { "en": [ "Provided by Example Organization" ] }
+  },
+
+  "items": [
+    {
+      "id": "https://mikeapp.github.io/manifest-fixtures/manifest/1012.json",
+      "type": "Manifest"
+    },
+    {
+      "id":"https://mikeapp.github.io/manifest-fixtures/manifest/10538410.json",
+      "type": "Manifest"
+    },
+    {
+      "id": "https://mikeapp.github.io/manifest-fixtures/manifest/15493197.json",
+      "type": "Manifest"
+    },
+    {
+      "id": "https://mikeapp.github.io/manifest-fixtures/manifest/2056645.json",
+      "type": "Manifest"
+    },
+    {
+      "id": "https://mikeapp.github.io/manifest-fixtures/manifest/2006140.json",
+      "type": "Manifest"
+    },
+    {
+      "id": "https://mikeapp.github.io/manifest-fixtures/manifest/2056646.json",
+      "type": "Manifest"
+    },
+    {
+      "id": "https://mikeapp.github.io/manifest-fixtures/manifest/15824447.json",
+      "type": "Manifest"
+    },
+    {
+      "id": "https://collections.library.yale.edu/manifests/17154400",
+      "type": "Manifest"
+    },
+    {
+      "id": "https://figgy.princeton.edu/manifests/32146ff6-c93d-4b14-b198-6fb518b44042/v3",
+      "type": "Manifest"
+    }
+
+  ]
+}
