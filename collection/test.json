@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://mikeapp.github.io/manifest-fixtures/manifest/test.json",
+  "id": "https://mikeapp.github.io/manifest-fixtures/collection/test.json",
   "type": "Collection",
   "label": { "en": [ "Map and Timeline Collection" ] },
   "summary": { "en": [ "Short summary of the Collection" ] },
