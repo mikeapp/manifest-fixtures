@@ -1,0 +1,22 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://mikeapp.github.io/manifest-fixtures/collection/test.json",
+    "type": "Collection",
+    "label": { "en": [ "Map and Timeline Collection: items without navDate or navPlace" ] },
+    "summary": { "en": [ "Short summary of the Collection" ] },
+    "requiredStatement": {
+      "label": { "en": [ "Attribution" ] },
+      "value": { "en": [ "Provided by Example Organization" ] }
+    },
+  
+    "items": [
+      {
+        "id": "https://collections.library.yale.edu/manifests/17338301",
+        "type": "Manifest"
+      },
+      {
+        "id":"https://collections.library.yale.edu/manifests/16207554",
+        "type": "Manifest"
+      }
+    ]
+}
