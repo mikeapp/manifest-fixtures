@@ -1,0 +1,357 @@
+{
+    "@context": [
+        "http://iiif.io/api/search/1/context.json",
+        "http://iiif.io/api/extension/navplace/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+    ],
+    "id": "https://mikeapp.github.io/manifest-fixtures/manifest/15604314.json",
+    "type": "Manifest",
+    "label": {
+        "none": ["A map of the states of Virginia, North Carolina, South Carolina and Georgia comprehending the Spanish provinces of east and west Florida : exhibiting the boundaries as fixed by the late treaty of peace between the United States and the Spanish dominions / [cartographic material]"]
+    },
+    "homepage": [
+        {
+            "id": "https://collections.library.yale.edu/catalog/15604314",
+            "type": "Text",
+            "format": "text/html",
+            "label": {
+                "en": ["Yale Digital Collections page"]
+            }
+        }
+    ],
+    "requiredStatement": {
+        "label": {
+            "en": ["Provider"]
+        },
+        "value": {
+            "en": ["Yale University Library"]
+        }
+    },
+    "rendering": [
+        {
+            "id": "https://collections.library.yale.edu/pdfs/15604314.pdf",
+            "type": "Text",
+            "format": "application/pdf",
+            "label": {
+                "en": ["Download as PDF"]
+            }
+        }
+    ],
+    "seeAlso": [
+        {
+            "id": "https://collections.library.yale.edu/catalog/oai?verb=GetRecord\u0026metadataPrefix=oai_mods\u0026identifier=oai:collections.library.yale.edu:15604314",
+            "type": "Dataset",
+            "format": "application/mods+xml",
+            "profile": "http://www.loc.gov/mods/v3"
+        }
+    ],
+    "metadata": [
+        {
+            "label": {
+                "en": ["Creator"]
+            },
+            "value": {
+                "none": ["Purcell, Joseph (Cartographer), cartographer"]
+            }
+        },
+        {
+            "label": {
+                "en": ["Published/Created Date"]
+            },
+            "value": {
+                "none": ["1792."]
+            }
+        },
+        {
+            "label": {
+                "en": ["Publication Place"]
+            },
+            "value": {
+                "none": [
+                    "London",
+                    "England London"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": ["Publisher"]
+            },
+            "value": {
+                "none": ["Publish'd by John Stockdale"]
+            }
+        },
+        {
+            "label": {
+                "en": ["Description"]
+            },
+            "value": {
+                "none": [
+                    "Relief shown by hachures.",
+                    "Longitude west from London.",
+                    "Detached from the American geography ... / by Jedidiah Morse. -- Second edition. London : Published by John Stockdale, 1792."
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": ["Extent"]
+            },
+            "value": {
+                "none": ["1 map ; 31 x 36 cm on sheet 45 x 47 cm"]
+            }
+        },
+        {
+            "label": {
+                "en": ["Scale"]
+            },
+            "value": {
+                "none": ["Scale 1:6,336,000."]
+            }
+        },
+        {
+            "label": {
+                "en": ["Coordinates"]
+            },
+            "value": {
+                "none": ["(W 92°--W 73°/N 40°--N 24°)."]
+            }
+        },
+        {
+            "label": {
+                "en": ["Language"]
+            },
+            "value": {
+                "none": ["English"]
+            }
+        },
+        {
+            "label": {
+                "en": ["Call Number"]
+            },
+            "value": {
+                "none": ["755 1792A"]
+            }
+        },
+        {
+            "label": {
+                "en": ["Genre"]
+            },
+            "value": {
+                "none": [
+                    "Early works to 1800",
+                    "Early works",
+                    "Maps"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": ["Resource Type"]
+            },
+            "value": {
+                "none": ["cartographic image"]
+            }
+        },
+        {
+            "label": {
+                "en": ["Subject (Geographic)"]
+            },
+            "value": {
+                "none": [
+                    "South Atlantic States",
+                    "United States",
+                    "South Atlantic States."
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": ["Subject (Topic)"]
+            },
+            "value": {
+                "none": ["Maps"]
+            }
+        },
+        {
+            "label": {
+                "en": ["Access"]
+            },
+            "value": {
+                "none": ["Public"]
+            }
+        },
+        {
+            "label": {
+                "en": ["Orbis ID"]
+            },
+            "value": {
+                "none": ["8254317"]
+            }
+        },
+        {
+            "label": {
+                "en": ["Object ID (OID)"]
+            },
+            "value": {
+                "none": ["15604314"]
+            }
+        }
+    ],
+    "provider": [
+        {
+            "id": "https://www.wikidata.org/wiki/Q2583293",
+            "type": "Agent",
+            "label": {
+                "en": ["Yale Library"]
+            },
+            "homepage": [
+                {
+                    "id": "https://library.yale.edu/",
+                    "type": "Text",
+                    "label": {
+                        "en": ["Yale Library homepage"]
+                    },
+                    "format": "text/html"
+                }
+            ]
+        }
+    ],
+    "items": [
+        {
+            "type": "Canvas",
+            "items": [
+                {
+                    "id": "https://collections.library.yale.edu/manifests/oid/15604314/canvas/15637063/page/1",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://collections.library.yale.edu/manifests/oid/15604314/canvas/15637063/image/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://collections.library.yale.edu/manifests/oid/15604314/canvas/15637063",
+                            "body": {
+                                "id": "https://collections.library.yale.edu/iiif/2/15637063/full/!200,200/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 5098,
+                                "width": 6696,
+                                "service": [
+                                    {
+                                        "@id": "https://collections.library.yale.edu/iiif/2/15637063",
+                                        "type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "id": "https://collections.library.yale.edu/manifests/oid/15604314/canvas/15637063",
+            "label": {
+                "none": ["recto"]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://collections.library.yale.edu/iiif/2/15637063/full/!200,200/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 5098,
+                    "width": 6696,
+                    "service": [
+                        {
+                            "@id": "https://collections.library.yale.edu/iiif/2/15637063",
+                            "type": "ImageService2",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    ]
+                }
+            ],
+            "height": 5098,
+            "width": 6696,
+            "metadata": [
+                {
+                    "label": {
+                        "en": ["Image ID"]
+                    },
+                    "value": {
+                        "none": ["15637063"]
+                    }
+                },
+                {
+                    "label": {
+                        "en": ["Image Label"]
+                    },
+                    "value": {
+                        "none": ["recto"]
+                    }
+                },
+                {
+                    "label": {
+                        "en": ["Link to this Image"]
+                    },
+                    "value": {
+                        "none": ["https://collections.library.yale.edu/catalog/15604314?child_oid=15637063"]
+                    }
+                }
+            ]
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://collections.library.yale.edu/iiif/2/15637063/full/!200,200/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 5098,
+            "width": 6696,
+            "service": [
+                {
+                    "@id": "https://collections.library.yale.edu/iiif/2/15637063",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+            ]
+        }
+    ],
+    "start": {
+        "id": "https://collections.library.yale.edu/manifests/oid/15604314/canvas/15637063",
+        "type": "Canvas"
+    },
+    "navPlace": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                40.0,
+                                -73.0
+                            ],
+                            [
+                                24.0,
+                                -73.0
+                            ],
+                            [
+                                24.0,
+                                -92.0
+                            ],
+                            [
+                                40.0,
+                                -92.0
+                            ],
+                            [
+                                40.0,
+                                -73.0
+                            ]
+                        ]
+                    ]
+                }
+            }
+        ]
+    }
+}
