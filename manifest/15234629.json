@@ -1,0 +1,358 @@
+{
+    "@context": [
+        "http://iiif.io/api/search/1/context.json",
+        "http://iiif.io/api/extension/navplace/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+    ],
+    "id": "https://mikeapp.github.io/manifest-fixtures/manifest/15234629",
+    "type": "Manifest",
+    "label": {
+        "none": ["Di qiu quan tu"]
+    },
+    "homepage": [
+        {
+            "id": "https://collections.library.yale.edu/catalog/15234629",
+            "type": "Text",
+            "format": "text/html",
+            "label": {
+                "en": ["Yale Digital Collections page"]
+            }
+        }
+    ],
+    "requiredStatement": {
+        "label": {
+            "en": ["Provider"]
+        },
+        "value": {
+            "en": ["Yale University Library"]
+        }
+    },
+    "rendering": [
+        {
+            "id": "http://localhost/pdfs/15234629.pdf",
+            "type": "Text",
+            "format": "application/pdf",
+            "label": {
+                "en": ["Download as PDF"]
+            }
+        }
+    ],
+    "seeAlso": [
+        {
+            "id": "https://collections.library.yale.edu/catalog/oai?verb=GetRecord&metadataPrefix=oai_mods&identifier=oai:collections.library.yale.edu:15234629",
+            "type": "Dataset",
+            "format": "application/mods+xml",
+            "profile": "http://www.loc.gov/mods/v3"
+        }
+    ],
+    "metadata": [
+        {
+            "label": {
+                "en": ["Alternative Title"]
+            },
+            "value": {
+                "none": [
+                    "Shi jie di tu",
+                    "世界地圖"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": ["Published/Created Date"]
+            },
+            "value": {
+                "none": ["Xianfeng wu nian [1855]"]
+            }
+        },
+        {
+            "label": {
+                "en": ["Publication Place"]
+            },
+            "value": {
+                "none": ["China"]
+            }
+        },
+        {
+            "label": {
+                "en": ["Publisher"]
+            },
+            "value": {
+                "none": ["publisher not identified"]
+            }
+        },
+        {
+            "label": {
+                "en": ["Extent"]
+            },
+            "value": {
+                "none": ["1 map : 93 x 170 cm"]
+            }
+        },
+        {
+            "label": {
+                "en": ["Scale"]
+            },
+            "value": {
+                "none": ["Scale not determined."]
+            }
+        },
+        {
+            "label": {
+                "en": ["Coordinates"]
+            },
+            "value": {
+                "none": ["(W 180°--E 180°/N 90°--S 90°)."]
+            }
+        },
+        {
+            "label": {
+                "en": ["Edition"]
+            },
+            "value": {
+                "none": ["Tao yin ben."]
+            }
+        },
+        {
+            "label": {
+                "en": ["Language"]
+            },
+            "value": {
+                "none": ["Chinese"]
+            }
+        },
+        {
+            "label": {
+                "en": ["Call Number"]
+            },
+            "value": {
+                "none": ["11 1860A"]
+            }
+        },
+        {
+            "label": {
+                "en": ["Finding Aid"]
+            },
+            "value": {
+                "none": ["<span><a href=\"http://beinecke.library.yale.edu/dl_crosscollex/brbldl_getrec.asp?fld=img&id=16595618\">http://beinecke.library.yale.edu/dl_crosscollex/brbldl_getrec.asp?fld=img&id=16595618</a></span>"]
+            }
+        },
+        {
+            "label": {
+                "en": ["Genre"]
+            },
+            "value": {
+                "none": [
+                    "Chinese rare maps",
+                    "World maps"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": ["Material"]
+            },
+            "value": {
+                "none": ["color ;"]
+            }
+        },
+        {
+            "label": {
+                "en": ["Resource Type"]
+            },
+            "value": {
+                "none": ["cartographic image"]
+            }
+        },
+        {
+            "label": {
+                "en": ["Subject (Topic)"]
+            },
+            "value": {
+                "none": ["World maps"]
+            }
+        },
+        {
+            "label": {
+                "en": ["Access"]
+            },
+            "value": {
+                "none": ["Private"]
+            }
+        },
+        {
+            "label": {
+                "en": ["Orbis ID"]
+            },
+            "value": {
+                "none": ["12834515"]
+            }
+        },
+        {
+            "label": {
+                "en": ["Object ID (OID)"]
+            },
+            "value": {
+                "none": ["15234629"]
+            }
+        }
+    ],
+    "provider": [
+        {
+            "id": "https://www.wikidata.org/wiki/Q2583293",
+            "type": "Agent",
+            "label": {
+                "en": ["Yale Library"]
+            },
+            "homepage": [
+                {
+                    "id": "https://library.yale.edu/",
+                    "type": "Text",
+                    "label": {
+                        "en": ["Yale Library homepage"]
+                    },
+                    "format": "text/html"
+                }
+            ]
+        }
+    ],
+    "viewingDirection": "left-to-right",
+    "behavior": ["individuals"],
+    "items": [
+        {
+            "type": "Canvas",
+            "items": [
+                {
+                    "id": "http://localhost/manifests/oid/15234629/canvas/16595618/page/1",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://localhost/manifests/oid/15234629/canvas/16595618/image/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "http://localhost/manifests/oid/15234629/canvas/16595618",
+                            "body": {
+                                "id": "http://localhost:8182/iiif/2/16595618/full/!200,200/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 4056,
+                                "width": 2591,
+                                "service": [
+                                    {
+                                        "@id": "http://localhost:8182/iiif/2/16595618",
+                                        "type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "id": "http://localhost/manifests/oid/15234629/canvas/16595618",
+            "label": {
+                "none": [""]
+            },
+            "thumbnail": [
+                {
+                    "id": "http://localhost:8182/iiif/2/16595618/full/!200,200/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 4056,
+                    "width": 2591,
+                    "service": [
+                        {
+                            "@id": "http://localhost:8182/iiif/2/16595618",
+                            "type": "ImageService2",
+                            "profile": "http://iiif.io/api/image/2/level2.json"
+                        }
+                    ]
+                }
+            ],
+            "height": 4056,
+            "width": 2591,
+            "metadata": [
+                {
+                    "label": {
+                        "en": ["Image ID"]
+                    },
+                    "value": {
+                        "none": ["16595618"]
+                    }
+                },
+                {
+                    "label": {
+                        "en": ["Image Caption"]
+                    },
+                    "value": {
+                        "none": ["[World map in Chinese, 1860.] "]
+                    }
+                },
+                {
+                    "label": {
+                        "en": ["Link to this Image"]
+                    },
+                    "value": {
+                        "none": ["https://collections.library.yale.edu/catalog/15234629?child_oid=16595618"]
+                    }
+                }
+            ]
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "http://localhost:8182/iiif/2/16595618/full/!200,200/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 4056,
+            "width": 2591,
+            "service": [
+                {
+                    "@id": "http://localhost:8182/iiif/2/16595618",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+            ]
+        }
+    ],
+    "start": {
+        "id": "http://localhost/manifests/oid/15234629/canvas/16595618",
+        "type": "Canvas"
+    },
+    "navPlace": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                90.0,
+                                180.0
+                            ],
+                            [
+                                -90.0,
+                                180.0
+                            ],
+                            [
+                                -90.0,
+                                -180.0
+                            ],
+                            [
+                                90.0,
+                                -180.0
+                            ],
+                            [
+                                90.0,
+                                180.0
+                            ]
+                        ]
+                    ]
+                }
+            }
+        ]
+    }
+}
