@@ -4,7 +4,7 @@
         "http://iiif.io/api/extension/navplace/context.json",
         "http://iiif.io/api/presentation/3/context.json"
     ],
-    "id": "https://mikeapp.github.io/manifest-fixtures/manifest/15234629",
+    "id": "https://mikeapp.github.io/manifest-fixtures/manifest/15234629.json",
     "type": "Manifest",
     "label": {
         "none": ["Di qiu quan tu"]
