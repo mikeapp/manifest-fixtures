@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://mikeapp.github.io/manifest-fixtures/collection/test.json",
+  "id": "https://mikeapp.github.io/manifest-fixtures/collection/rome.json",
   "type": "Collection",
   "label": { "en": [ "Rome Collection" ] },
   "summary": { "en": [ "A collection of items related to Rome." ] },
