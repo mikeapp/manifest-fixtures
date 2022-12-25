@@ -1,0 +1,60 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://mikeapp.github.io/manifest-fixtures/navPlace/manifest/6",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "The Temple of Vesta, Rome"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://mikeapp.github.io/manifest-fixtures/navPlace/manifest/6/canvas/6",
+      "type": "Canvas",
+      "height": 1464,
+      "width": 2048,
+      "items": [
+        {
+          "id": "https://mikeapp.github.io/manifest-fixtures/navPlace/manifest/6/page/6",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://mikeapp.github.io/manifest-fixtures/navPlace/manifest/6/anno/6",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.io/api/image/3.0/example/reference/71b9228e087f15c75b628214cd9f647d-The_Temple_of_Vesta_Rome/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 1464,
+                "width": 2048,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/71b9228e087f15c75b628214cd9f647d-The_Temple_of_Vesta_Rome",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://mikeapp.github.io/manifest-fixtures/navPlace/manifest/6/canvas/6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "navDate": "1849-01-01T00:000:00Z",
+  "navPlace": {
+    "type": "FeatureCollection",
+    "features": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "12.4862",
+          "41.8917"
+        ]
+      }
+    }
+  }
+}

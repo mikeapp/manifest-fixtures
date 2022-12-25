@@ -1,0 +1,60 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://mikeapp.github.io/manifest-fixtures/navPlace/manifest/2",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "A View of Trajan's Forum, Rome"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://mikeapp.github.io/manifest-fixtures/navPlace/manifest/2/canvas/2",
+      "type": "Canvas",
+      "height": 3005,
+      "width": 2048,
+      "items": [
+        {
+          "id": "https://mikeapp.github.io/manifest-fixtures/navPlace/manifest/2/page/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://mikeapp.github.io/manifest-fixtures/navPlace/manifest/2/anno/2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.io/api/image/3.0/example/reference/71b9228e087f15c75b628214cd9f647d-A_View_of_Trajans_Forum_Rome/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3005,
+                "width": 2048,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/71b9228e087f15c75b628214cd9f647d-A_View_of_Trajans_Forum_Rome",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://mikeapp.github.io/manifest-fixtures/navPlace/manifest/2/canvas/2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "navDate": "1821-01-01T00:000:00Z",
+  "navPlace": {
+    "type": "FeatureCollection",
+    "features": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "12.485869",
+          "41.895419"
+        ]
+      }
+    }
+  }
+}

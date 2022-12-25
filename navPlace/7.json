@@ -1,0 +1,60 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://mikeapp.github.io/manifest-fixtures/navPlace/manifest/7",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Arch of Titus, from the Temple of Venus and Rome"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://mikeapp.github.io/manifest-fixtures/navPlace/manifest/7/canvas/7",
+      "type": "Canvas",
+      "height": 3055,
+      "width": 2048,
+      "items": [
+        {
+          "id": "https://mikeapp.github.io/manifest-fixtures/navPlace/manifest/7/page/7",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://mikeapp.github.io/manifest-fixtures/navPlace/manifest/7/anno/7",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.io/api/image/3.0/example/reference/71b9228e087f15c75b628214cd9f647d-Arch_of_Titus_from_the_Temple_of_Venus_and_Rome/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3055,
+                "width": 2048,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/71b9228e087f15c75b628214cd9f647d-Arch_of_Titus_from_the_Temple_of_Venus_and_Rome",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://mikeapp.github.io/manifest-fixtures/navPlace/manifest/7/canvas/7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "navDate": "1860-01-01T00:000:00Z",
+  "navPlace": {
+    "type": "FeatureCollection",
+    "features": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "12.488585",
+          "41.890717"
+        ]
+      }
+    }
+  }
+}
