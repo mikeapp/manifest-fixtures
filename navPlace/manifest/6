@@ -49,15 +49,17 @@
   "navDate": "1849-01-01T00:000:00Z",
   "navPlace": {
     "type": "FeatureCollection",
-    "features": {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "12.4862",
-          "41.8917"
-        ]
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            "12.4862",
+            "41.8917"
+          ]
+        }
       }
-    }
+    ]
   }
 }
