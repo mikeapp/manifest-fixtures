@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "navDate": "1818-01-01T00:000:00Z",
+  "navDate": "1818-01-01T00:00:00Z",
   "navPlace": {
     "type": "FeatureCollection",
     "features": [
