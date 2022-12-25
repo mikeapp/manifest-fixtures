@@ -2,6 +2,11 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "https://mikeapp.github.io/manifest-fixtures/navPlace/collection",
   "type": "Collection",
+  "label": {
+    "none": [
+      "Example"
+    ]
+  },
   "items": [
     {
       "id": "https://mikeapp.github.io/manifest-fixtures/navPlace/manifest/1",
