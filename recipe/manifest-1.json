@@ -6,7 +6,7 @@
     "id": "https://mikeapp.github.io/manifest-fixtures/recipe/manifest-1.json",
     "type": "Manifest",
     "label": {
-      "it": [
+      "en": [
         "Castel Sant'Angelo, Rome"
       ]
     },
