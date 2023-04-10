@@ -25,6 +25,10 @@
       {
         "id": "https://mikeapp.github.io/manifest-fixtures/recipe/manifest-4.json",
         "type": "Manifest"
+      },
+      {
+        "id": "https://mikeapp.github.io/manifest-fixtures/recipe/manifest-5.json",
+        "type": "Manifest"
       }
     ]
 }
