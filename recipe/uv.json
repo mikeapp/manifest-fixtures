@@ -1,5 +1,6 @@
 {
     "@context": [
+      "http://iiif.io/api/extension/navplace/context.json",
       "http://iiif.io/api/presentation/3/context.json"
     ],
     "id": "https://mikeapp.github.io/manifest-fixtures/recipe/uv.json",
@@ -62,9 +63,9 @@
                   "width": 2048,
                   "service": [
                     {
-                      "id": "https://iiif.io/api/image/3.0/example/reference/71b9228e087f15c75b628214cd9f647d-A_View_of_Trajans_Forum_Rome",
+                      "id": "https://iiif.io/api/image/2.0/example/reference/71b9228e087f15c75b628214cd9f647d-A_View_of_Trajans_Forum_Rome",
                       "profile": "level1",
-                      "type": "ImageService3"
+                      "type": "ImageService2"
                     }
                   ]
                 },
