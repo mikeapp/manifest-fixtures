@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif.io/api/cookbook/recipe/0560-resources-on-a-timeline/manifest.json",
+  "id": "https://mikeapp.github.io/manifest-fixtures//0560.json",
   "type": "Manifest",
   "label": {
     "en": [
